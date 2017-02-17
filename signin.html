@@ -1,0 +1,77 @@
+  <html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Dogedojo</title>
+
+    <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link type="text/css" rel="stylesheet" href="css/style.css" media="screen">
+    </head>
+<body>
+
+
+
+  <div class="container" id="login">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Welcome to DogeDojo</h2>
+        <button type="button" class="btn btn-primary" onclick="signIn();"><i class="fa fa-google-plus"></i> Sign-In With Google</button>
+
+      </div>
+    </div>
+   
+
+  </div><!-- /.container -->
+
+  <div class="container" id="welcome">
+    <div class="row">
+      <div class="col-lg-6" id="uploadDiv">
+        <h2>Upload</h2>
+          <label class="myLabel" id="inputLabel">
+            <input type="file" id="upload" required/>
+            <span>Select File</span>
+          </label>
+          <div class="input-group upload-group">
+          <input type="text" placeholder="Image Title" id="imgTitle">
+          </div>
+          <div class="input-group upload-group">
+          <input type="text" placeholder="Image Caption" id="imgDesc">
+          </div>
+          <button type="button" class="btn btn-primary upload-group" onclick="confirmUpload()">SUBMIT</button>
+      </div>
+    </div>
+  </div>
+    <script src="https://www.gstatic.com/firebasejs/3.6.9/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+          apiKey: "AIzaSyCZFi8JaaIdNy1IcdtBNPtNCIq4TzFm9Fw",
+          authDomain: "flavor-767db.firebaseapp.com",
+          databaseURL: "https://flavor-767db.firebaseio.com",
+          storageBucket: "flavor-767db.appspot.com",
+          messagingSenderId: "697113501912"
+        };
+        firebase.initializeApp(config);
+      </script>
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="myjs.js"></script>
+
+</body>
+</html>
