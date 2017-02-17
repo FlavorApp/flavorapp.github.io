@@ -1,0 +1,173 @@
+body{
+    font-family: 'Century Gothic', sans-serif;
+    margin: -10px 0 0 -10px;
+}
+
+h1{font-size: 120px; color: #FFF;}
+h2{font-size: 80px; color: #FFF}
+h3{font-size: 50px; color:#E6252B }
+
+a{text-decoration: none; color: #FFF;}
+
+span{font-size: 25px;}
+
+li:hover { list-style-type: none; text-decoration: none;}
+
+ul { list-style-type: none; }
+
+/* Top Nav */
+#FullFlavor {
+    margin: 0 auto;
+    letter-spacing: 2.5px;
+    font-size: 12pt;
+    position: fixed;
+    padding: 5px 10px 10px 10%;
+    top: 0;
+    left: 0;
+}
+
+#top_navigation {
+    margin: 0 auto;
+    letter-spacing: 2.5px;
+    font-size: 12pt;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 10px 50px 10px 70%;
+}
+
+#nav_border {
+    background-color: #000;
+    margin: 0 auto;
+    width: 100%;
+    height: 4.8em;
+    display: inline-block;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav a:hover { 
+    color: red;
+    background-color: none;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: 0.3s;   
+}
+
+#nav_title {color:  #000;}
+
+nav {
+    margin-right: 2em;
+}
+
+nav ul li {
+	position: relative;
+	float: right;
+	margin: 0 auto;
+	padding: 0 2% 0 0;
+}
+
+/* Title */
+#title {
+    text-align: center; 
+    margin: auto;
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+
+#arrow {padding-top: 10px;}
+
+#learn {color: white; font-size: 35px; padding: none;}
+
+#link {color: black; font-size: 30px; padding: none;}
+
+.simple {
+    font-size: 15px;
+}
+
+#phone {
+    float: right;
+    /* margin: 10px 0 10px 0; */
+    margin: 180px 0 10px -30px;
+}
+
+#phone2 {
+    float: right;
+    margin: 10px 0 10px 0;
+    /* margin: 150px 0 10px -30px; */
+}
+
+/* Driving Question */
+#white {padding: 10px 40px 30px 30px; height:45em; margin-left: 5%;}
+
+#download {
+    margin-left: 5%;
+    padding-top: 
+}
+
+#button {
+    background-color: #E6252B; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+/* Footer */
+.footer{
+    background-color: #000;
+    padding: 20px 40px 30px 40px;
+    margin: 0 auto;
+    position: relative; 
+}
+
+#footerlogo{
+    float: right; 
+}
+
+/* Parallax */
+.parallax-main {
+    height: 900px;
+    width: 100%;
+    margin: -100px 0 0 0;
+}
+
+.parallax-container {
+    height: 30em;
+    width: 100%;
+}
+
+/* Media Sizes*/
+
+@media screen and (max-width: 1180px) {
+   #phone2 {
+        display: none;
+    }
+    
+    #white {
+        height: 35em;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #title {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+   #phone {
+        display: none;
+    }
+    
+    #white {
+        height: 38em;
+    }
+}
