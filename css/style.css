@@ -1,12 +1,10 @@
 body{
     font-family: 'Century Gothic', sans-serif;
     margin: -10px 0 0 -10px;
+    background-image: url("media/food.jpg");
+    background-repeat: repeat-x;
 }
 
-body {
-	background-image: url("media/food.jpg");
-    	background-repeat: repeat-x;
-}
 
 h1{font-size: 120px; color: #FFF;}
 h2{font-size: 80px; color: #FFF}
