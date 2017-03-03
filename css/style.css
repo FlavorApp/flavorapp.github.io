@@ -4,8 +4,7 @@ body{
 }
 
 body background {
-	width: 1400;
-	height: 900;
+	background-repeat: repeat-x;
 }
 
 h1{font-size: 120px; color: #FFF;}
