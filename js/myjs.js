@@ -63,7 +63,7 @@ function confirmUpload() {
 			'caption': $("#imgDesc").val()
 		},
 	};
-	var uploadTask = firebase.storage().ref().child('dogImages/' + selectedFile.name).put(selectedFile, metadata);
+	var uploadTask = firebase.storage().ref().child('FoodImages/' + selectedFile.name).put(selectedFile, metadata);
 	// Register three observers:
 	// 1. 'state_changed' observer, called any time the state changes
 	// 2. Error observer, called on failure
