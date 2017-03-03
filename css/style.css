@@ -3,8 +3,9 @@ body{
     margin: -10px 0 0 -10px;
 }
 
-body background {
-	background-repeat: repeat-x;
+body {
+	background-image: url("media/food.jpg");
+    	background-repeat: repeat-x;
 }
 
 h1{font-size: 120px; color: #FFF;}
