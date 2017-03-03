@@ -5,6 +5,11 @@ background-image: url("media/food.jpg");
     background-repeat: repeat-x;
 }
 
+.class {
+	background-image: url("media/food.jpg");
+    background-repeat: repeat-x;
+}
+
 h1{font-size: 120px; color: #FFF;}
 h2{font-size: 80px; color: #FFF;}
 h3{font-size: 50px; color:#E6252B; }
