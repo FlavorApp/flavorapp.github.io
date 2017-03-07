@@ -1,18 +1,12 @@
 body{
     font-family: 'Century Gothic', sans-serif;
     margin: -10px 0 0 -10px;
-background-image: url("media/food.jpg");
-    background-repeat: repeat-x;
-}
-
-.class {
-	background-image: url("media/food.jpg");
-    background-repeat: repeat-x;
 }
 
 h1{font-size: 120px; color: #FFF;}
-h2{font-size: 80px; color: #FFF;}
-h3{font-size: 50px; color:#E6252B; }
+h2{font-size: 80px; color: #FFF}
+h3{font-size: 50px; color: black }
+h4{font-size: 13px; color: black }
 
 a{text-decoration: none; color: #FFF;}
 
@@ -22,7 +16,38 @@ li:hover { list-style-type: none; text-decoration: none;}
 
 ul { list-style-type: none; }
 
+#login {
+    margin-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+    
+}
+
+.sign {
+    color: white;
+    background: #E72328;
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#body {
+    background-image: url("../media/food.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    background: white;
+}
 /* Top Nav */
+
+
 #FullFlavor {
     margin: 0 auto;
     letter-spacing: 2.5px;
@@ -175,6 +200,7 @@ nav ul li {
     }
     
     #white {
-        height: 38em;
+        height: 42em;
     }
 }
+
