@@ -44,7 +44,7 @@ ul { list-style-type: none; }
 
 .container {
     background: white;
-	margin-left: 100px;
+	padding-left: 100px;
 }
 
 p {
