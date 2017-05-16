@@ -140,21 +140,8 @@ nav ul li {
     padding-top: 
 }
 
-#yellow-button {
-    background-color: #FFC900; 
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 12px;
-    font-family: Tahoma, Geneva, sans-serif;
-}
-
 #button {
-    background-color: #E6252B; 
+    background-color: #FFC900; 
     border: none;
     color: white;
     padding: 15px 32px;
