@@ -9,6 +9,8 @@ h3{font-size: 50px; color: black; }
 h4{font-size: 13px; color: black; }
 h5{font-size: 20px; color: black; padding-top: 40px;}
 
+
+
 a{text-decoration: none; color: #FFF;}
 
 span{font-size: 25px;}
@@ -46,6 +48,7 @@ ul { list-style-type: none; }
 .container {
     background: white;
 	padding-left: 100px;
+	padding top: 60px;
 }
 /* Top Nav */
 
